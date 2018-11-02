@@ -1,0 +1,19 @@
+using System;
+
+namespace IntroToCSharp
+{
+	class HelloWhile
+	{
+		static void Main(string[] args)
+		{
+			int i = 0;
+			
+			while(i < 5)
+			{
+				Console.WriteLine("Hello While");
+				i++;
+			}
+		}
+
+	}
+}
